@@ -221,12 +221,7 @@ CBMailingListSignupWindowController *gSignupController = nil;
 }
 
 - (void)closeSignup {
-	if (gSignupController) {
-		assert(gSignupController == self);
-		[[gSignupController window] orderOut:self];
-		[gSignupController release];
-		gSignupController = nil;
-	}
+	[[self window] orderOut:self];
 }
 
 - (IBAction)cancelAction:(id)sender {
