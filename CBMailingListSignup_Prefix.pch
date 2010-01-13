@@ -1,0 +1,8 @@
+/*
+ * Prefix header for all source files of the 'CBMailingListSignup' target in the 'CBMailingListSignup' project
+ *
+ */
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#endif
