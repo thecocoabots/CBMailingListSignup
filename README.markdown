@@ -14,7 +14,7 @@ Usage
     Classes/CBMailingListSignupWindowController.h
     Classes/CBMailingListSignupWindowController.m
     Resources/CBMailingListSignup.xib
-    Resources/CBMailingListSignup.xib
+    Resources/CBMailingListSignup.strings
 	
 2. Add a new key and value to your application's Info.plist:
 
