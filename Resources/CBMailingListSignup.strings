@@ -13,3 +13,4 @@ InvalidAPIKeyMessage       = "You have not been subscribed to the mailing list, 
 InvalidListIDTitle         = "Invalid Mailing List";
 InvalidListIDMessage       = "You have not been subscribed to the mailing list, as the developer of this application has not set up their mailing list key correctly. Please let the developer know that you received this error.";
 OKButtonLabel              = "OK";
+WindowTitle                = "Subscribe to our mailing list";

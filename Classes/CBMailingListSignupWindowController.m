@@ -98,11 +98,8 @@ CBMailingListSignupWindowController *gSignupController = nil;
 
 	isSnowLeopard = systemVersionMajor >= 10 && systemVersionMinor >= 6;
 
-
-	NSString *titleLabelFormatString = [NSString stringWithFormat:@"%@ Window Title", nil];
-	NSString *fmtTitle               = NSLocalizedStringFromTable(titleLabelFormatString, @"CBMailingListSignup", nil);
-
-	NSString *title = [NSString stringWithFormat:fmtTitle, [[[NSBundle bundleForClass:[self class]] infoDictionary] objectForKey:(NSString *)kCFBundleNameKey]];
+	NSString *fmtTitle = NSLocalizedStringFromTable(@"WindowTitle", @"CBMailingListSignup", nil);
+	NSString *title    = [NSString stringWithFormat:fmtTitle, [[[NSBundle bundleForClass:[self class]] infoDictionary] objectForKey:(NSString *)kCFBundleNameKey]];
 	[[self window] setTitle:title];
 
 	ABPerson *me = [[ABAddressBook sharedAddressBook] me];
