@@ -267,7 +267,7 @@ CBMailingListSignupWindowController *gSignupController = nil;
 		alertStyle   = NSInformationalAlertStyle;
 	} else if ([responseCodeNumber integerValue] == 1) { /* Invalid email address: The email value passed in was invalid. */
 		alertTitle   = [NSString stringWithString:@"InvalidEmailAddressTitle"];
-		alertMessage = [NSString stringWithString:@"InvalidEmailAddresMessage"];
+		alertMessage = [NSString stringWithString:@"InvalidEmailAddressMessage"];
 		alertStyle   = NSWarningAlertStyle;
 	} else if ([responseCodeNumber integerValue] == 100) { /* Invalid API key: The API key pass was not valid or has expired. */
 		alertTitle   = [NSString stringWithString:@"InvalidAPIKeyTitle"];
